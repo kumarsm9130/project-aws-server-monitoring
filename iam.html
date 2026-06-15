@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IAM — Groups & Users</title>
+  <meta name="description" content="AWS EC2 Server Monitoring project demo built from a report (EC2, CloudWatch, Alarms, SNS, IAM).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="nav">
+  <div class="nav-inner">
+    <nav class="links">
+      <a href="index.html">About</a>
+      <a href="ec2.html">EC2</a>
+      <a href="monitoring.html">Monitoring</a>
+      <a href="alarms.html">Alarms</a>
+      <a href="iam.html">IAM</a>
+    </nav>
+  </div>
+</header>
+
+<section class="container page">
+  <h1>IAM — Groups & Users</h1>
+  <p>Create an <strong>IAM Group</strong> with least-privilege policies (e.g., CloudWatchReadOnlyAccess). Add a <strong>User</strong> to the group to view dashboards and alarms without admin permissions.</p>
+
+  <h2>Steps</h2>
+  <ol class="steps">
+    <li>Create Group: <em>MonitoringViewers</em></li>
+    <li>Attach policy: <code>CloudWatchReadOnlyAccess</code></li>
+    <li>Create User, add to group, generate console password</li>
+    <li>Share sign-in URL and enforce MFA</li>
+  </ol>
+  
+<div class="iam-grid">
+  <img src="assets/images/iam1.png" alt="IAM group and user overview">
+  <img src="assets/images/iam2.png" alt="IAM group and user overview">
+  <img src="assets/images/iam3.png" alt="IAM group and user overview">
+</div>
+
+
+</section>
+
+<script src="js/main.js"></script>
+</body>
+</html>

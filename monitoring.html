@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monitoring — CloudWatch Metrics & Dashboard</title>
+  <meta name="description" content="AWS EC2 Server Monitoring project demo built from a report (EC2, CloudWatch, Alarms, SNS, IAM).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="nav">
+  <div class="nav-inner">
+    <nav class="links">
+      <a href="index.html">About</a>
+      <a href="ec2.html">EC2</a>
+      <a href="monitoring.html">Monitoring</a>
+      <a href="alarms.html">Alarms</a>
+      <a href="iam.html">IAM</a>
+    </nav>
+  </div>
+</header>
+
+<section class="container page">
+  <h1>CloudWatch Monitoring — CPU, Network & Status Checks</h1>
+  <p>CloudWatch collects metrics from EC2 without agents. Key metrics include <em>CPUUtilization</em>, <em>NetworkIn/Out</em>, and <em>StatusCheckFailed</em>. Below is a sample CPU trend (mock data).</p>
+
+<div class="chart-wrap">
+  <canvas id="cpuChart"></canvas>
+</div>
+
+
+  <div class="grid-2">
+    <div class="card">
+      <h3>Dashboard Widgets</h3>
+      <ul>
+        <li>CPU Utilization (Average, 1/5 min)</li>
+        <li>Network In/Out (Sum)</li>
+        <li>Status Check Failed (Maximum)</li>
+        <li>CPU Credit Balance (for T instances)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Best Practices</h3>
+      <ul>
+        <li>Use correct period to match metric resolution</li>
+        <li>Set <code>TreatMissingData=notBreaching</code></li>
+        <li>Tag instances and filter dashboards by tags</li>
+      </ul>
+    </div>
+  </div>
+
+  <img class="full" src="assets/images/cloud watch monitoring.png" alt="CloudWatch dashboard example">
+</section>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="js/charts.js"></script>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>

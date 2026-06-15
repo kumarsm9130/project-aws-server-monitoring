@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EC2 — Introduction & Setup</title>
+  <meta name="description" content="AWS EC2 Server Monitoring project demo built from a report (EC2, CloudWatch, Alarms, SNS, IAM).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="nav">
+  <div class="nav-inner">
+    <nav class="links">
+      <a href="index.html">About</a>
+      <a href="ec2.html">EC2</a>
+      <a href="monitoring.html">Monitoring</a>
+      <a href="alarms.html">Alarms</a>
+      <a href="iam.html">IAM</a>
+    </nav>
+  </div>
+</header>
+<section class="container page">
+  <h1>Amazon EC2 — Instance Setup</h1>
+  <p><strong>Amazon EC2</strong> provides resizable compute in the cloud. Launch virtual servers (instances) with chosen OS, instance types, security, and networking.</p>
+
+  <h2>Instance creation steps</h2>
+  <ol class="steps">
+    <li>Choose an AMI (e.g., Amazon Linux 2023)</li>
+    <li>Select instance type (e.g., t3.micro)</li>
+    <li>Configure VPC, Subnet, Security Group (allow SSH/HTTP as needed)</li>
+    <li>Create/Select a Key Pair for SSH</li>
+    <li>Launch instance and verify status checks</li>
+  </ol>
+
+  <div class="tip">
+    <strong>Tip:</strong> Enable <em>Detailed Monitoring</em> for 1-minute metrics in CloudWatch if you need faster alarms.
+  </div>
+
+  <div class="ec2-images">
+  <img src="assets/images/picture1.png" alt="EC2 instance overview">
+  <img src="assets/images/picture2.png" alt="EC2 monitoring second view">
+</div>
+</section>
+
+  
+
+
+<script src="js/main.js"></script>
+</body>
+</html>

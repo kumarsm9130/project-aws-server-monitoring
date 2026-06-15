@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alarms & SNS — Notifications</title>
+  <meta name="description" content="AWS EC2 Server Monitoring project demo built from a report (EC2, CloudWatch, Alarms, SNS, IAM).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="nav">
+  <div class="nav-inner">
+    <nav class="links">
+      <a href="index.html">About</a>
+      <a href="ec2.html">EC2</a>
+      <a href="monitoring.html">Monitoring</a>
+      <a href="alarms.html">Alarms</a>
+      <a href="iam.html">IAM</a>
+    </nav>
+  </div>
+</header>
+
+<section class="container page">
+  <h1>CloudWatch Alarms & SNS Notifications</h1>
+  <p>Alarms evaluate metrics against thresholds and notify via SNS. Common setup:</p>
+  <ul>
+    <li><strong>CPUUtilizationHigh</strong>: Average CPU > 80% for 5 minutes</li>
+    <li><strong>StatusCheckFailedAny</strong>: Maximum > 0 for 10 minutes</li>
+  </ul>
+
+  <div class="grid-2">
+    <div class="card">
+      <h3>Alarm Settings</h3>
+      <ul>
+        <li>EvaluationPeriods: 5 (CPU)</li>
+        <li>Period: 60s (with Detailed Monitoring)</li>
+        <li>ComparisonOperator: GreaterThanThreshold</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>SNS Email</h3>
+      <p>Create a topic (e.g., <code>EC2MonitoringTopic</code>) and subscribe your email. Confirm the subscription to receive alerts.</p>
+    </div>
+  </div>
+
+  <img class="full" src="assets/images/picture4.png" alt="Alarms example">
+</section>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
