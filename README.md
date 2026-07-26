@@ -48,7 +48,7 @@ project/
 This project is created for learning AWS infrastructure basics and demonstrating frontend skills with a cloud monitoring theme.
 
 ## Author
-This project is maintained by Kumar S Marathe 💡
+This project is maintained by **Kumar S Marathe**
 
 📧 Connect with me:
 
