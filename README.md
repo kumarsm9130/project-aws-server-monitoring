@@ -15,19 +15,7 @@ This project demonstrates the end-to-end lifecycle of monitoring an EC2 server o
 
 ---
 
-## 🖥️ Pages
-
-| Page | Description |
-|---|---|
-| `index.html` | Landing page — project overview and how to navigate the demo |
-| `ec2.html` | EC2 instance creation steps (AMI, instance type, VPC/Subnet/Security Group, Key Pair) |
-| `monitoring.html` | CloudWatch metrics explained + live Chart.js CPU utilization chart |
-| `alarms.html` | CloudWatch Alarms configuration and SNS email notification setup |
-| `iam.html` | IAM group/user creation for least-privilege, read-only monitoring access |
-
----
-
-## 🚀 What This Demo Covers
+## 🚀 What This Project Covers
 
 ### 1. EC2 Instance Setup
 - Choosing an AMI (Amazon Linux 2023)
@@ -67,8 +55,6 @@ This project demonstrates the end-to-end lifecycle of monitoring an EC2 server o
 
 ## 🛠️ Tech Stack
 
-- **HTML5** — semantic page structure
-- **CSS3** (Flexbox & Grid) — responsive, AWS-console-inspired light theme
 - **JavaScript** — DOM utilities + Chart.js integration
 - **Chart.js** (CDN) — CPU utilization line chart with mock data
 
@@ -92,8 +78,8 @@ project/
 │   └── charts.js
 │
 └── images/
-        ├── cloud_watch_monitoring.png
-        ├── CloudWatch_Monitoring___CPU__Network___Status_Checks.png
+        ├── cloud-watch-monitoring
+        ├── CloudWatch-Monitoring-CPU,Network-Status-Checks
         ├── picture1.png
         ├── picture2.png
         ├── picture4.png
@@ -104,39 +90,18 @@ project/
 
 ---
 
-## ▶️ Running Locally
 
-No build step required — it's a static site.
-
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-```
-
-Then simply open `index.html` in your browser, or serve it locally:
-
-```bash
-python3 -m http.server 8080
-```
-
-Visit `http://localhost:8080` in your browser.
-
----
 
 ## ✨ Features
 
-- Responsive, AWS-console-styled UI (Flexbox & Grid, mobile breakpoints)
-- Fixed top navigation across all pages
 - Live CPU utilization chart via Chart.js
 - Real AWS Console screenshots for EC2, CloudWatch, Alarms/SNS, and IAM steps
-- Clean, professional light theme suitable for a portfolio
 
 ---
 
 ## 🎯 Purpose
 
-Created to demonstrate practical AWS infrastructure fundamentals — EC2, CloudWatch, Alarms/SNS, and IAM — alongside front-end development skills, as part of a DevOps / Cloud Engineering portfolio.
-
+Created to demonstrate practical AWS infrastructure fundamentals — EC2, CloudWatch, Alarms/SNS, and IAM 
 ---
 
 ## 👤 Author
