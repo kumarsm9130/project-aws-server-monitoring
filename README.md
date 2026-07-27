@@ -1,10 +1,6 @@
-# ☁️ AWS EC2 Server Monitoring — Portfolio Demo Project
+# ☁️ AWS EC2 Server Monitoring — Project
 
-A static, front-end demo project that walks through a real AWS workflow: launching an **EC2** instance, monitoring it with **CloudWatch**, configuring **Alarms + SNS** notifications, and locking down access with **IAM** groups/users. Built as a DevOps/Cloud portfolio piece — the site itself documents the AWS console steps and includes real screenshots from the setup.
-
-**🔗 Live Demo:** _[add your GitHub Pages / hosting link here]_
-
----
+Project that walks through a real AWS workflow: launching an **EC2** instance, monitoring it with **CloudWatch**, configuring **Alarms + SNS** notifications, and locking down access with **IAM** groups/users. Using console steps and includes real screenshots from the setup.
 
 ## 📌 Overview
 
@@ -15,7 +11,7 @@ This project demonstrates the end-to-end lifecycle of monitoring an EC2 server o
 3. **Alert** on thresholds via CloudWatch Alarms + SNS email notifications
 4. **Secure** access using least-privilege IAM groups and users
 
-The site is a multi-page static build (no backend) with a shared navbar, a Chart.js-powered CPU utilization graph, and screenshots captured directly from the AWS Console during the build.
+ A Chart.js-powered CPU utilization graph, and screenshots captured directly from the AWS Console during the build.
 
 ---
 
