@@ -67,7 +67,7 @@ This project demonstrates the end-to-end lifecycle of monitoring an EC2 server o
 ---
 
 
-## 📁 Folder Structure
+## Project Structure
 
 ```
 project/
