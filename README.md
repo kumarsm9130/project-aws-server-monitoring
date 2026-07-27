@@ -44,7 +44,7 @@ This project demonstrates the end-to-end lifecycle of monitoring an EC2 server o
 - Dashboard widgets for CPU, Network, Status Checks, and CPU Credit Balance
 - Best practices: matching metric period/resolution, `TreatMissingData=notBreaching`, tagging for dashboard filters
 
-![CloudWatch Monitoring Dashboard](images/cloud watch monitoring.png)
+![CloudWatch Monitoring Dashboard](images/cloud_watch_monitoring.png) (images/cloud watch monitoring.png)
 ![CPU / Network / Status Check Details](images/CloudWatch Monitoring — CPU, Network & Status Checks.png)
 
 ### 3. Alarms & SNS Notifications
