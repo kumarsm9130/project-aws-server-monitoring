@@ -45,7 +45,7 @@ This project demonstrates the end-to-end lifecycle of monitoring an EC2 server o
 - Best practices: matching metric period/resolution, `TreatMissingData=notBreaching`, tagging for dashboard filters
 
 ![CloudWatch Monitoring Dashboard](images/cloud-watch-monitoring.png)
-![CPU / Network / Status Check Details](images/CloudWatch Monitoring — CPU, Network & Status Checks.png)
+![CPU / Network / Status Check Details](images/cloudwatch-cpu-network-status.png)
 
 ### 3. Alarms & SNS Notifications
 - `CPUUtilizationHigh`: triggers when average CPU > 80% for 5 minutes
@@ -59,7 +59,7 @@ This project demonstrates the end-to-end lifecycle of monitoring an EC2 server o
 - Added a user to the group with console access (no admin permissions)
 - Enforced least-privilege access with MFA recommended
 
-![IAM User Groups](assets/images/iam1.png)
+![IAM User Groups](images/iam1.png)
 ![IAM Attach Permissions Policy](images/iam2.png)
 ![IAM Console Sign-in Details](images/iam3.png)
 
