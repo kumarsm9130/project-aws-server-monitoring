@@ -95,8 +95,7 @@ project/
 │   ├── main.js
 │   └── charts.js
 │
-└── assets/
-    └── images/
+└── images/
         ├── cloud_watch_monitoring.png
         ├── CloudWatch_Monitoring___CPU__Network___Status_Checks.png
         ├── picture1.png
