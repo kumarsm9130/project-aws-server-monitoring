@@ -111,8 +111,10 @@ project/
 Created to demonstrate practical AWS infrastructure fundamentals — EC2, CloudWatch, Alarms/SNS, and IAM 
 ---
 
-## 👤 Author
+## Author
 
-**Kumar S Marathe**
-DevOps Engineer / Cloud Infrastructure — AWS · Docker · Kubernetes · Jenkins · CI/CD
+This project is maintained by **Kumar S Marathe**
 
+📧 Connect with me:
+- GitHub: [github.com/kumarsm9130](https://github.com/kumarsm9130)
+- LinkedIn: [linkedin.com/in/kumar-s-marathe-79a163256](https://www.linkedin.com/in/kumar-s-marathe-79a163256/)
