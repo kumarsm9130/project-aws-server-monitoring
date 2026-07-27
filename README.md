@@ -36,23 +36,23 @@ This project demonstrates the end-to-end lifecycle of monitoring an EC2 server o
 - Creating a Key Pair for SSH access
 - Verifying instance status checks
 
-![EC2 Instance Overview](assets/images/picture1.png)
-![EC2 Monitoring Tab](assets/images/picture2.png)
+![EC2 Instance Overview](images/picture1.png)
+![EC2 Monitoring Tab](images/picture2.png)
 
 ### 2. CloudWatch Monitoring
 - Key metrics tracked: `CPUUtilization`, `NetworkIn/Out`, `StatusCheckFailed`
 - Dashboard widgets for CPU, Network, Status Checks, and CPU Credit Balance
 - Best practices: matching metric period/resolution, `TreatMissingData=notBreaching`, tagging for dashboard filters
 
-![CloudWatch Monitoring Dashboard](assets/images/cloud watch monitoring.png)
-![CPU / Network / Status Check Details](assets/images/CloudWatch Monitoring — CPU, Network & Status Checks.png)
+![CloudWatch Monitoring Dashboard](images/cloud watch monitoring.png)
+![CPU / Network / Status Check Details](images/CloudWatch Monitoring — CPU, Network & Status Checks.png)
 
 ### 3. Alarms & SNS Notifications
 - `CPUUtilizationHigh`: triggers when average CPU > 80% for 5 minutes
 - `StatusCheckFailedAny`: triggers when max > 0 for 10 minutes
 - SNS topic (e.g. `EC2MonitoringTopic`) with email subscription + confirmation
 
-![Alarm Example](assets/images/picture4.png)
+![Alarm Example](images/picture4.png)
 
 ### 4. IAM Groups & Users
 - Created a `MonitoringViewers` group with the `CloudWatchReadOnlyAccess` policy
@@ -60,8 +60,8 @@ This project demonstrates the end-to-end lifecycle of monitoring an EC2 server o
 - Enforced least-privilege access with MFA recommended
 
 ![IAM User Groups](assets/images/iam1.png)
-![IAM Attach Permissions Policy](assets/images/iam2.png)
-![IAM Console Sign-in Details](assets/images/iam3.png)
+![IAM Attach Permissions Policy](images/iam2.png)
+![IAM Console Sign-in Details](images/iam3.png)
 
 ---
 
