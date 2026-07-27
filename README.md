@@ -15,6 +15,19 @@ This project demonstrates the end-to-end lifecycle of monitoring an EC2 server o
 
 ---
 
+## 🖥️ Pages
+
+| Page | Description |
+|---|---|
+| `index.html` | Landing page — project overview and how to navigate the demo |
+| `ec2.html` | EC2 instance creation steps (AMI, instance type, VPC/Subnet/Security Group, Key Pair) |
+| `monitoring.html` | CloudWatch metrics explained + live Chart.js CPU utilization chart |
+| `alarms.html` | CloudWatch Alarms configuration and SNS email notification setup |
+| `iam.html` | IAM group/user creation for least-privilege, read-only monitoring access |
+
+---
+
+
 ## 🚀 What This Project Covers
 
 ### 1. EC2 Instance Setup
