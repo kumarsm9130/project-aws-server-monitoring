@@ -53,12 +53,6 @@ This project demonstrates the end-to-end lifecycle of monitoring an EC2 server o
 
 ---
 
-## 🛠️ Tech Stack
-
-- **JavaScript** — DOM utilities + Chart.js integration
-- **Chart.js** (CDN) — CPU utilization line chart with mock data
-
----
 
 ## 📁 Folder Structure
 
