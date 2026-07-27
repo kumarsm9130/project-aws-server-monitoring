@@ -48,8 +48,8 @@ The site is a multi-page static build (no backend) with a shared navbar, a Chart
 - Dashboard widgets for CPU, Network, Status Checks, and CPU Credit Balance
 - Best practices: matching metric period/resolution, `TreatMissingData=notBreaching`, tagging for dashboard filters
 
-![CloudWatch Monitoring Dashboard](assets/images/cloud_watch_monitoring.png)
-![CPU / Network / Status Check Details](assets/images/CloudWatch_Monitoring___CPU__Network___Status_Checks.png)
+![CloudWatch Monitoring Dashboard](assets/images/cloud watch monitoring.png)
+![CPU / Network / Status Check Details](assets/images/CloudWatch Monitoring — CPU, Network & Status Checks.png)
 
 ### 3. Alarms & SNS Notifications
 - `CPUUtilizationHigh`: triggers when average CPU > 80% for 5 minutes
